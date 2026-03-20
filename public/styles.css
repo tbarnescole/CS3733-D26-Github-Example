@@ -8,6 +8,7 @@ td {
 	padding: 10px;
 	text-align: center;
 	justify-content: center;
+	animation: flip 2s infinite;
 }
 thead {
 	color: red;
@@ -24,5 +25,16 @@ table {
 	}
 	to {
 		transform: rotate(45deg);
+	}
+}
+
+@keyframes flip {
+	from {
+		transform: rotateY(-180deg);
+		opacity: 0.7;
+	}
+	to {
+		transform: rotateY(0deg);
+		opacity: 1;
 	}
 }
