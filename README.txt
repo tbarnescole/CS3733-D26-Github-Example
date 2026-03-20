@@ -12,3 +12,4 @@ TO DO:
 6. add, commit, and push your branch
 7. on GitHub, create pull request
 8. one person resolves and everyone else should watch
+9. all get cupcakes!
